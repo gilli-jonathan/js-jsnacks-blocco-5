@@ -23,3 +23,18 @@ nums.forEach(function (numero) {
   }
 });
 console.log(numeri_pari);
+
+//soluzione con .filter
+
+const pari = nums.filter((numerino) => {
+  if (numerino % 2 === 0) {
+    return true;
+  }
+});
+
+console.log(pari);
+
+//soluzione con .filter ancora più stringato:
+
+const pari_questi_numeri = nums.filter((numb) => numb % 2 === 0);
+console.log(pari_questi_numeri);
