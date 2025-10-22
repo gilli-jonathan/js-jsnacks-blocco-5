@@ -37,3 +37,8 @@ students.forEach((studente) => {
     console.log(studente.class);
   }
 });
+
+//soluzione con il .find
+const aula = students.find((studente) => studente.name === "Marco Lanci").class;
+
+console.log(aula);
