@@ -45,3 +45,9 @@ students.forEach((tipo) => {
 });
 
 console.log(personcina);
+
+//soluzione con il .find
+
+const espulso = students.find((tipo) => tipo.id == 2);
+
+console.log(espulso);
