@@ -12,5 +12,14 @@ for (let index = 0; index < nums.length; index++) {
     nums_pari.push(nu);
   }
 }
-
 console.log(nums_pari);
+
+//soluzione ciclo ForEach
+const numeri_pari = [];
+
+nums.forEach(function (numero) {
+  if (numero % 2 === 0) {
+    numeri_pari.push(numero);
+  }
+});
+console.log(numeri_pari);
