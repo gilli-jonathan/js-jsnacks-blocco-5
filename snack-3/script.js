@@ -12,7 +12,7 @@ for (let index = 0; index < numbers.length; index++) {
 console.log(numeri_aumentati);
 
 const numeri_grossi = [];
-//soluzione con il ciclo for
+//soluzione con il ciclo forEach
 numbers.forEach(function (numb) {
   numeri_grossi.push(numb + 1);
 });
