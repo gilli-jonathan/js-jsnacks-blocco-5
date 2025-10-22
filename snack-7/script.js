@@ -33,3 +33,15 @@ for (let index = 0; index < students.length; index++) {
   }
 }
 console.log(obj);
+
+//soluzione con il ciclo forEach
+
+let personcina = {};
+
+students.forEach((tipo) => {
+  if (tipo.id === 2) {
+    personcina = tipo;
+  }
+});
+
+console.log(personcina);
