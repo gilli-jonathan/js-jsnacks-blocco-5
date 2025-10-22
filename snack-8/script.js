@@ -29,3 +29,11 @@ for (let index = 0; index < students.length; index++) {
     console.log(studente.class);
   }
 }
+
+//soluzione con il forEach
+
+students.forEach((studente) => {
+  if (studente.name === "Marco Lanci") {
+    console.log(studente.class);
+  }
+});
