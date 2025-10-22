@@ -29,3 +29,28 @@ for (let index = 0; index < zucchine.length; index++) {
 
 console.log(zucchinoneee);
 console.log(zucchine_noiose);
+
+//soluzione con  il ciclo ForEach
+
+const mega_zucchine = [];
+const base_zucchine = [];
+
+zucchine.forEach((zucchi) => {
+  if (zucchi.length <= 15) {
+    mega_zucchine.push(`type: ${zucchi.type}, weigth: ${zucchi.weight}`);
+  } else {
+    base_zucchine.push(`type: ${zucchi.type}, weigth: ${zucchi.weight}`);
+  }
+});
+
+console.log(mega_zucchine);
+console.log(base_zucchine);
+
+//soluzione con .filter
+
+const giga_zucch = zucchine.filter((zuc) => zuc.length <= 15);
+
+const boring_zucc = zucchine.filter((zuc) => zuc.length > 15);
+
+console.log(giga_zucch);
+console.log(base_zucchine);
