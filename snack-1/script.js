@@ -9,4 +9,7 @@ for (let index = 0; index < names.length; index++) {
   console.log(name);
 }
 
-//Soluzione con il classico ciclo For
+//Soluzione con il classico ciclo ForEach
+names.forEach((singleName) => {
+  console.log(singleName);
+});
