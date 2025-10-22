@@ -16,7 +16,6 @@ const numeri_grossi = [];
 numbers.forEach(function (numb) {
   numeri_grossi.push(numb + 1);
 });
-
 console.log(numeri_grossi);
 
 //solizione con .map
